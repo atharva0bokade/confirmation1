@@ -16,7 +16,7 @@ function Accepted(props) {
   
   useEffect(()=>{
    
-    Axios.get('http://localhost:3001/accepted').then((res)=>{
+    Axios.get('https://appointment0backend.herokuapp.com/accepted').then((res)=>{
       setRequest1_list(res.data);
       console.log(res.data);
       
@@ -25,7 +25,7 @@ function Accepted(props) {
   },[]);
   
   const reject=(id)=>{
-    Axios.put("http://localhost:3001/approve",{
+    Axios.put("https://appointment0backend.herokuapp.com/approve",{
       id:id,
       approve:"Rejected",
     });
