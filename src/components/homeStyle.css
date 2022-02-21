@@ -1,0 +1,27 @@
+.timings{
+    position: absolute;
+    width: 23em;
+    height: 20em;
+    left: 35em;
+    top: 15em;
+}
+#btn_req2{
+    position: absolute;
+    left:19em;
+    bottom: 0.3em;
+}
+#pending_btn{
+    position: absolute;
+    top: 16em;
+    left:4em;
+}
+#accepted_btn{
+    position: absolute;
+    top: 16em;
+    left:10em;
+}
+#rejected_btn{
+    position: absolute;
+    top: 16em;
+    left:16.5em;
+}

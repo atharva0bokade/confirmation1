@@ -1,0 +1,48 @@
+.requests{
+    position: absolute;
+    width: 64em;
+    height: 20em;
+    left: 21em;
+    top: 15em;
+}
+#btn_req{
+    position: absolute;
+    left:60em;
+    bottom: 0.3em;
+}
+#btn_reqa{
+    position: absolute;
+    left:67em;
+    bottom: 0.3em;
+}
+#btn_req1{
+    position: absolute;
+    left:67em;
+    bottom: 0.3em;
+}
+#btn_reqr{
+    position: absolute;
+    left:67em;
+    bottom: 0.3em;
+}
+#btn_ref{
+    position: absolute;
+    top:16em;
+    left:57em;
+
+
+}
+#btn_ref1{
+    position: absolute;
+    top:20em;
+    left:25em;
+
+
+
+}
+#time{
+    position: absolute;
+    left: 15em;
+    top: -5em;
+    
+}
